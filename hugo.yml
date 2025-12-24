@@ -5,6 +5,10 @@ languageCode: "zh-cn"
 title: "Jim's Blog" # 默认标题，可随意改
 theme: "PaperMod"
 
+# 开启 CJK (中日韩) 语言支持
+# 这会让 Hugo 统计汉字的数量，而不是按空格切分
+hasCJKLanguage: true
+
 pagination:
   pagerSize: 5 # 首页默认展示文章数量
 
