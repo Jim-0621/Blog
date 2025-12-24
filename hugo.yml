@@ -1,0 +1,66 @@
+# --- 基础配置 ---
+# ⚠️ 这里必须填对，否则样式会乱。
+# 如果你的仓库名是 "myblog"，则通常是 "https://<你的GitHub用户名>.github.io/myblog/"
+baseURL: "https://Jim-0621.github.io/myblog/"
+languageCode: "zh-cn"
+title: "Jim的技术博客" # 这里我帮你填了默认标题，可随意改
+theme: "PaperMod"
+
+enableRobotsTXT: true
+enableEmoji: true
+timeZone: Asia/Shanghai
+
+# --- 菜单栏配置 ---
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: /
+      weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 40
+
+# --- PaperMod 主题参数 ---
+params:
+  env: production
+  description: "专注于 C#、ERP 开发与技术分享"
+  author: Jim
+  defaultTheme: auto # 跟随系统切换深色/浅色模式
+
+  # 首页显示的个人信息卡片
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: >
+      欢迎来到我的博客。
+      
+      这里记录我在制造业 IT 领域的工作心得，
+      
+      主要涉及 C#、SQL Server 以及 ERP 开发架构。
+
+  # 社交链接 (可按需修改或删除)
+  socialIcons:
+    - name: github
+      url: "https://github.com/<你的GitHub用户名>"
+    - name: email
+      url: "mailto:your-email@example.com"
+
+  # 界面设置
+  ShowReadingTime: true     # 显示阅读时长
+  ShowShareButtons: true    # 显示分享按钮
+  ShowPostNavLinks: true    # 显示上一篇/下一篇
+  ShowBreadCrumbs: true     # 显示面包屑导航
+  ShowCodeCopyButtons: true # 显示代码块复制按钮
+  
+  # 侧边栏/底部版权
+  footer:
+    since: 2025 # 或者是当前年份
