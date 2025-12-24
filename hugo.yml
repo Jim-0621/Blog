@@ -1,9 +1,8 @@
 # --- 基础配置 ---
 # ⚠️ 这里必须填对，否则样式会乱。
-# 如果你的仓库名是 "myblog"，则通常是 "https://<你的GitHub用户名>.github.io/myblog/"
-baseURL: "https://Jim-0621.github.io/myblog/"
+baseURL: "https://jim-0621.github.io/blog/"
 languageCode: "zh-cn"
-title: "Jim的技术博客" # 这里我帮你填了默认标题，可随意改
+title: "Jim's Blog" # 默认标题，可随意改
 theme: "PaperMod"
 
 enableRobotsTXT: true
@@ -33,7 +32,7 @@ menu:
 # --- PaperMod 主题参数 ---
 params:
   env: production
-  description: "专注于 C#、ERP 开发与技术分享"
+  description: "技术分享和生活感悟"
   author: Jim
   defaultTheme: auto # 跟随系统切换深色/浅色模式
 
@@ -42,17 +41,13 @@ params:
     Title: "Hi there 👋"
     Content: >
       欢迎来到我的博客。
-      
-      这里记录我在制造业 IT 领域的工作心得，
-      
-      主要涉及 C#、SQL Server 以及 ERP 开发架构。
 
   # 社交链接 (可按需修改或删除)
   socialIcons:
     - name: github
-      url: "https://github.com/<你的GitHub用户名>"
+      url: "https://github.com/Jim-0621"
     - name: email
-      url: "mailto:your-email@example.com"
+      url: "mailto:1031352726@qq.com"
 
   # 界面设置
   ShowReadingTime: true     # 显示阅读时长
