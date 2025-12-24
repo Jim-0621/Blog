@@ -1,0 +1,38 @@
+<!-- <style>
+    /* PaperMod 左侧目录样式补丁 
+       使用 extend_head.html 直接注入
+    */
+
+    /* 当屏幕宽度大于 1200px 时启用 (避免手机上遮挡) */
+    @media screen and (min-width: 1200px) {
+        
+        /* 定位目录容器 */
+        .toc {
+            position: fixed !important;
+            left: 20px !important;      /* 距离左边 20px */
+            top: 100px !important;      /* 距离顶部 100px */
+            width: 400px !important;    /* 宽度限制 */
+            
+            background: var(--entry) !important; /* 跟随主题背景 */
+            padding: 15px !important;
+            border-radius: var(--radius) !important;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05); /* 轻微阴影 */
+            z-index: 999;
+            
+            /* 允许内部滚动 */
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        /* 强制显示目录内容 (防止默认折叠) */
+        .toc details .inner {
+            display: block !important;
+        }
+
+        /* 隐藏 "Table of Contents" 这个标题，节省空间 */
+        .toc details summary {
+            cursor: default;
+            font-weight: bold;
+        }
+    }
+</style> -->

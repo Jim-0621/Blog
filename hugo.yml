@@ -5,6 +5,9 @@ languageCode: "zh-cn"
 title: "Jim's Blog" # 默认标题，可随意改
 theme: "PaperMod"
 
+pagination:
+  pagerSize: 5 # 首页默认展示文章数量
+
 enableRobotsTXT: true
 enableEmoji: true
 timeZone: Asia/Shanghai
@@ -16,6 +19,14 @@ menu:
       name: 首页
       url: /
       weight: 10
+    - identifier: tech
+      name: 技术干货
+      url: /categories/技术干货/
+      weight: 11
+    - identifier: life
+      name: 生活感悟
+      url: /categories/生活感悟/
+      weight: 12
     - identifier: archives
       name: 归档
       url: /archives/
@@ -38,7 +49,7 @@ params:
 
   # 首页显示的个人信息卡片
   homeInfoParams:
-    Title: "Hi there 👋"
+    Title: "Hi 👋"
     Content: >
       欢迎来到我的博客。
 
@@ -59,6 +70,12 @@ params:
   # 侧边栏/底部版权
   footer:
     since: 2025 # 或者是当前年份
+
+  # ✅ 开启目录
+  ShowToc: true
+  
+  # ✅ 默认自动展开目录 (如果不加这行，默认是折叠的，需要点一下才开)
+  TocOpen: false
 
 outputs:
   home:
