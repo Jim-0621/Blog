@@ -60,9 +60,9 @@ params:
     imageTitle: "Love"
     buttons:
       - name: "💑 我们的故事"
-        url: "/posts/story/"
+        url: "categories/我们的故事/"
       - name: "✈️ 足迹"
-        url: "/posts/footprint/"
+        url: "categories/足迹/"
 
   # 社交链接 (可按需修改或删除)
   socialIcons:
@@ -94,7 +94,8 @@ outputs:
     - RSS
     - JSON # 👈 必须加这个，否则搜索功能找不到数据源
 
+# goldmark 允许 HTML
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true # 解析HTML，支持换行，显示天数
