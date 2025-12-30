@@ -58,6 +58,12 @@ params:
   author: Jim
   defaultTheme: auto # 跟随系统切换深色/浅色模式
 
+  assets:
+    favicon: "favicon.svg"
+    favicon16x16: "favicon.svg"
+    favicon32x32: "favicon.svg"
+    apple_touch_icon: "favicon.svg"
+
   profileMode:
     enabled: true
     title: "CXJ ❤️ YDN" 
@@ -93,6 +99,8 @@ params:
   
   # 默认不展开目录
   TocOpen: false
+
+  
 
 outputs:
   home:
